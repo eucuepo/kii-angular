@@ -1,14 +1,14 @@
 {
-  "name": "angular-socket-io",
-  "version": "0.4.1",
-  "main": "socket.js",
+  "name": "kii-angular",
+  "version": "0.0.1",
+  "main": "kii-angular.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "./node_modules/.bin/karma start --browsers Firefox --single-run"
   },
-  "author": "Brian Ford",
+  "author": "Eugenio Cuevas",
   "license": "MIT",
   "devDependencies": {
     "gulp": "~3.5.5",

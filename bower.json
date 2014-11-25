@@ -1,9 +1,17 @@
 {
-  "name": "angular-socket-io",
-  "version": "0.4.1",
-  "main": "socket.js",
+  "name": "kii-angular",
+  "version": "0.0.1",
+  "main": "kii-angular.js",
   "dependencies": {
-    "angular": "~1.2.6"
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "html5-boilerplate": "~4.3.0",
+    "q":"1.0.1",
+    "kii-angular-patch":"0.0.1",
+    "kii-cloud-sdk": "2.1.x",
+    "jquery":"2.x.x"
   },
   "devDependencies": {
     "angular-mocks": "~1.2.6"

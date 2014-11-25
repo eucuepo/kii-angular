@@ -1,0 +1,27 @@
+<p>This is the partial for view 1.</p>
+<div>
+  <form>
+    <label>Username</label>
+    <input type="text" ng-model="user.username"/>
+    <label>Password</label>
+    <input type="password" ng-model="user.password"/>
+  </form>
+  <a href="" ng-click="createUser(user.username, user.password)">Create user</a>
+</div>
+<hr>
+<div ng-show="currentUser">
+  <table>
+    <tr><td>Username</td><td><b>{{currentUser._username}}</b></td></tr>
+    <tr><td>User id</td><td><b>{{currentUser._uuid}}</td></b></tr>
+    <tr><td>Display name</td><td><b>{{currentUser._displayName}}</td></b></tr>
+  </table>
+  <form>
+    <label>Username</label>
+    <input type="text" ng-model="modifyUser.userName"/>
+    <label>Displayname</label>
+    <input type="text" ng-model="modifyUser.displayName"/>
+  </form>
+  <div>
+    <a href="" ng-click="update(modifyUser.userName, modifyUser.displayName)">Update user</a>
+  </div>
+</div>
